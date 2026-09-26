@@ -1,0 +1,481 @@
+/* =====================================================
+   INDUSTRIES HERO
+===================================================== */
+
+.industries-hero {
+    min-height: 500px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(10, 35, 55, 0.88),
+            rgba(10, 35, 55, 0.60),
+            rgba(10, 35, 55, 0.18)
+        ),
+        url("../assets/images/factory/about-factory.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.industries-hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: auto;
+    padding: 90px 6%;
+}
+
+.industries-hero-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: #3aaa35;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.industries-hero h1 {
+    max-width: 720px;
+
+    margin: 0 0 22px;
+
+    color: #ffffff;
+
+    font-size: 52px;
+    line-height: 1.12;
+
+    font-weight: 400;
+}
+
+.industries-hero h1 strong {
+    font-weight: 700;
+}
+
+.industries-hero-content > p {
+    max-width: 620px;
+
+    margin: 0 0 30px;
+
+    color: #dce8f0;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.industries-breadcrumb {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+.industries-breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.industries-breadcrumb span:first-of-type {
+    color: #3aaa35;
+
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   INTRO
+===================================================== */
+
+.industries-intro {
+    padding: 90px 6% 70px;
+
+    background: #ffffff;
+
+    text-align: center;
+}
+
+.industries-intro-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.industries-intro h2 {
+    margin: 0 0 20px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.industries-intro h2 strong {
+    font-weight: 700;
+}
+
+.industries-intro p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   INDUSTRY DETAIL
+===================================================== */
+
+.industry-detail {
+    padding: 90px 6%;
+
+    background: #f5f8fb;
+}
+
+.industry-detail-alt {
+    background: #ffffff;
+}
+
+.industry-detail-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 75px;
+
+    align-items: center;
+}
+
+
+/* IMAGE */
+
+.industry-detail-image {
+    height: 440px;
+
+    overflow: hidden;
+
+    border-radius: 6px;
+}
+
+.industry-detail-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: 0.5s ease;
+}
+
+.industry-detail:hover .industry-detail-image img {
+    transform: scale(1.03);
+}
+
+
+/* CONTENT */
+
+.industry-number {
+    display: block;
+
+    margin-bottom: 12px;
+
+    color: #d6e2eb;
+
+    font-size: 40px;
+    line-height: 1;
+
+    font-weight: 700;
+}
+
+.industry-detail-content h2 {
+    margin: 0 0 20px;
+
+    color: #102d49;
+
+    font-size: 40px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.industry-detail-content h2 strong {
+    font-weight: 700;
+}
+
+.industry-detail-content > p {
+    margin: 0 0 25px;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* FEATURES */
+
+.industry-features {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px 20px;
+}
+
+.industry-features div {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.industry-features span {
+    width: 23px;
+    height: 23px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    background: #eaf7e8;
+
+    color: #3aaa35;
+
+    border-radius: 50%;
+
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.industry-features p {
+    margin: 0;
+
+    color: #405a70;
+
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.industries-cta {
+    padding: 75px 6%;
+
+    background: #102d49;
+}
+
+.industries-cta-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.industries-cta h2 {
+    margin: 0 0 12px;
+
+    color: #ffffff;
+
+    font-size: 36px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.industries-cta h2 strong {
+    font-weight: 700;
+}
+
+.industries-cta p {
+    margin: 0;
+
+    color: #c8d8e4;
+
+    font-size: 14px;
+}
+
+.industries-cta-button {
+    flex-shrink: 0;
+
+    padding: 14px 25px;
+
+    background: #0867ad;
+    color: #ffffff;
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.industries-cta-button:hover {
+    background: #3aaa35;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .industries-hero {
+        min-height: 450px;
+    }
+
+    .industries-hero-content {
+        padding: 75px 5%;
+    }
+
+    .industries-hero h1 {
+        font-size: 42px;
+    }
+
+    .industries-intro {
+        padding: 70px 5% 50px;
+    }
+
+    .industries-intro h2 {
+        font-size: 36px;
+    }
+
+    .industry-detail {
+        padding: 70px 5%;
+    }
+
+    .industry-detail-container {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .industry-detail-image {
+        height: 400px;
+    }
+
+    .industry-detail-content h2 {
+        font-size: 36px;
+    }
+
+    .industries-cta-container {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .industries-hero {
+        min-height: 430px;
+
+        background-position: 60% center;
+    }
+
+    .industries-hero-content {
+        padding: 65px 20px;
+    }
+
+    .industries-hero-label {
+        font-size: 11px;
+    }
+
+    .industries-hero h1 {
+        font-size: 34px;
+    }
+
+    .industries-hero-content > p {
+        font-size: 14px;
+    }
+
+    .industries-intro {
+        padding: 60px 20px 45px;
+    }
+
+    .industries-intro h2 {
+        font-size: 31px;
+    }
+
+    .industries-intro p {
+        font-size: 14px;
+    }
+
+    .industry-detail {
+        padding: 60px 20px;
+    }
+
+    .industry-detail-image {
+        height: 300px;
+    }
+
+    .industry-number {
+        font-size: 32px;
+    }
+
+    .industry-detail-content h2 {
+        font-size: 31px;
+    }
+
+    .industry-detail-content > p {
+        font-size: 14px;
+    }
+
+    .industry-features {
+        grid-template-columns: 1fr;
+    }
+
+    .industries-cta {
+        padding: 60px 20px;
+    }
+
+    .industries-cta h2 {
+        font-size: 30px;
+    }
+
+    .industries-cta-button {
+        width: 100%;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,1283 @@
+/* =========================================================
+   QUALITY PAGE
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+.quality-page {
+    width: 100%;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+
+/* =========================================================
+   QUALITY HERO
+========================================================= */
+
+.quality-hero {
+    position: relative;
+
+    min-height: 520px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 100px 7%;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8, 35, 58, 0.94),
+            rgba(8, 35, 58, 0.72),
+            rgba(8, 35, 58, 0.35)
+        ),
+        url("../assets/images/factory/quality-control.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.quality-hero-content {
+    width: 100%;
+    max-width: 760px;
+}
+
+.quality-hero-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: #ffffff;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.quality-hero h1 {
+    margin: 0 0 22px;
+
+    color: #ffffff;
+
+    font-size: clamp(42px, 5vw, 68px);
+    line-height: 1.08;
+
+    font-weight: 400;
+}
+
+.quality-hero h1 strong {
+    font-weight: 700;
+}
+
+.quality-hero p {
+    max-width: 650px;
+
+    margin: 0 0 28px;
+
+    color: rgba(255, 255, 255, 0.88);
+
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.quality-breadcrumb {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+.quality-breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.quality-breadcrumb span:first-of-type {
+    opacity: 0.65;
+}
+
+
+/* =========================================================
+   COMMON SECTION LABEL
+========================================================= */
+
+.quality-page .section-label,
+.quality-overview .section-label,
+.quality-checks .section-label,
+.quality-instruments .section-label,
+.quality-process .section-label,
+.quality-cta .section-label {
+    display: inline-block;
+
+    margin-bottom: 14px;
+
+    color: #1681c4;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+/* =========================================================
+   QUALITY OVERVIEW
+========================================================= */
+
+.quality-overview {
+    padding: 110px 7%;
+
+    background: #ffffff;
+}
+
+.quality-overview-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+.quality-overview-image {
+    width: 100%;
+    height: 500px;
+
+    overflow: hidden;
+
+    border-radius: 5px;
+}
+
+.quality-overview-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+.quality-overview-content h2 {
+    margin: 0 0 22px;
+
+    color: #102d49;
+
+    font-size: 44px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.quality-overview-content h2 strong {
+    font-weight: 700;
+}
+
+.quality-overview-content p {
+    margin: 0 0 18px;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   QUALITY HIGHLIGHTS
+========================================================= */
+
+.quality-highlights {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 15px;
+
+    margin-top: 32px;
+}
+
+.quality-highlights > div {
+    padding: 18px;
+
+    background: #f5f8fa;
+
+    border-left: 3px solid #1681c4;
+}
+
+.quality-highlights strong {
+    display: block;
+
+    margin-bottom: 7px;
+
+    color: #1681c4;
+
+    font-size: 18px;
+}
+
+.quality-highlights span {
+    color: #425b73;
+
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+
+/* =========================================================
+   QUALITY CHECKS
+========================================================= */
+
+.quality-checks {
+    padding: 110px 7%;
+
+    background: #f5f8fa;
+}
+
+.quality-checks-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+.quality-checks-heading {
+    max-width: 720px;
+
+    margin-bottom: 50px;
+}
+
+.quality-checks-heading h2 {
+    margin: 0 0 18px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.quality-checks-heading h2 strong {
+    font-weight: 700;
+}
+
+.quality-checks-heading p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   QUALITY CHECK GRID
+========================================================= */
+
+.quality-checks-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 22px;
+}
+
+.quality-check-card {
+    position: relative;
+
+    padding: 32px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e9ee;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.quality-check-card:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 18px 40px rgba(16, 45, 73, 0.09);
+}
+
+.quality-check-number {
+    position: absolute;
+
+    top: 20px;
+    right: 22px;
+
+    color: #dce5eb;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.quality-check-icon {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 22px;
+
+    border-radius: 50%;
+
+    background: #eaf5fb;
+
+    color: #1681c4;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quality-check-card h3 {
+    margin: 0 0 12px;
+
+    color: #102d49;
+
+    font-size: 19px;
+    line-height: 1.35;
+}
+
+.quality-check-card p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   QUALITY INSTRUMENTS
+========================================================= */
+
+.quality-instruments {
+    width: 100%;
+
+    padding: 90px 0;
+
+    background: #ffffff;
+
+    overflow: hidden;
+}
+
+.quality-instruments-container {
+    width: min(1400px, 92%);
+
+    margin: 0 auto;
+}
+
+
+/* =========================================================
+   INSTRUMENT HEADING
+========================================================= */
+
+.quality-instruments-heading {
+    max-width: 750px;
+
+    margin-bottom: 50px;
+}
+
+.quality-instruments-heading .section-label {
+    color: #1681c4;
+}
+
+.quality-instruments-heading h2 {
+    margin: 0;
+
+    color: #123b5d;
+
+    font-size: clamp(36px, 4vw, 54px);
+    line-height: 1.1;
+
+    font-weight: 400;
+}
+
+.quality-instruments-heading h2 strong {
+    color: #1684c7;
+
+    font-weight: 700;
+}
+
+.quality-instruments-heading p {
+    max-width: 680px;
+
+    margin: 20px 0 0;
+
+    color: #6d7f8e;
+
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   INSTRUMENT SLIDER
+========================================================= */
+
+.instrument-slider {
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* =========================================================
+   TRACK
+========================================================= */
+
+.instrument-track {
+    width: 100%;
+
+    display: flex;
+    align-items: stretch;
+
+    gap: 28px;
+
+    overflow: hidden;
+
+    padding: 8px 4px 15px;
+
+    scroll-behavior: smooth;
+
+    scrollbar-width: none;
+}
+
+.instrument-track::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* =========================================================
+   INSTRUMENT CARD
+========================================================= */
+
+.instrument-slide {
+    flex: 0 0 calc((100% - 84px) / 4);
+
+    min-width: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid #e4ebf0;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 8px 30px rgba(18, 59, 93, 0.07);
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+}
+
+.instrument-slide:hover {
+    transform: translateY(-6px);
+
+    box-shadow:
+        0 16px 40px rgba(18, 59, 93, 0.13);
+}
+
+
+/* =========================================================
+   INSTRUMENT IMAGE
+========================================================= */
+
+.instrument-image {
+    width: 100%;
+    height: 315px;
+
+    overflow: hidden;
+
+    background: #f3f6f8;
+}
+
+.instrument-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+    object-position: center;
+
+    transition: transform 0.5s ease;
+}
+
+.instrument-slide:hover .instrument-image img {
+    transform: scale(1.04);
+}
+
+
+/* =========================================================
+   INSTRUMENT CONTENT
+========================================================= */
+
+.instrument-content {
+    flex: 1;
+
+    padding: 26px 30px 32px;
+}
+
+.instrument-number {
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: #1684c7;
+
+    font-size: 15px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.instrument-content h3 {
+    min-height: 62px;
+
+    margin: 0 0 15px;
+
+    color: #123b5d;
+
+    font-size: 23px;
+    line-height: 1.3;
+
+    font-weight: 700;
+}
+
+.instrument-content p {
+    margin: 0;
+
+    color: #718394;
+
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   INSTRUMENT ARROWS
+========================================================= */
+
+.instrument-arrow {
+    position: absolute;
+
+    top: 50%;
+    z-index: 20;
+
+    width: 54px;
+    height: 54px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border: 1px solid #dce7ee;
+    border-radius: 50%;
+
+    background: #ffffff;
+
+    color: #1684c7;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 25px rgba(18, 59, 93, 0.15);
+
+    transform: translateY(-50%);
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.instrument-arrow:hover {
+    background: #1684c7;
+
+    border-color: #1684c7;
+
+    color: #ffffff;
+
+    transform: translateY(-50%) scale(1.08);
+}
+
+.instrument-arrow:active {
+    transform: translateY(-50%) scale(0.96);
+}
+
+.instrument-prev {
+    left: -27px;
+}
+
+.instrument-next {
+    right: -27px;
+}
+
+
+/* =========================================================
+   INSTRUMENT DOTS
+========================================================= */
+
+.instrument-dots {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-top: 30px;
+}
+
+.instrument-dot {
+    width: 10px;
+    height: 10px;
+
+    padding: 0;
+
+    border: none;
+
+    border-radius: 50%;
+
+    background: #ccd8e1;
+
+    cursor: pointer;
+
+    transition:
+        width 0.3s ease,
+        background 0.3s ease;
+}
+
+.instrument-dot:hover {
+    background: #8fa9ba;
+}
+
+.instrument-dot.active {
+    width: 32px;
+
+    border-radius: 20px;
+
+    background: #1684c7;
+}
+
+
+/* =========================================================
+   QUALITY PROCESS
+========================================================= */
+
+.quality-process {
+    padding: 110px 7%;
+
+    background: #f5f8fa;
+}
+
+.quality-process-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: grid;
+
+    grid-template-columns: 1fr 0.9fr;
+
+    gap: 80px;
+
+    align-items: center;
+}
+
+.quality-process-content h2 {
+    margin: 0 0 20px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.quality-process-content h2 strong {
+    font-weight: 700;
+}
+
+.quality-process-content > p {
+    margin: 0 0 35px;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =========================================================
+   PROCESS LIST
+========================================================= */
+
+.quality-process-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+.quality-process-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 18px;
+
+    padding: 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e0e8ed;
+}
+
+.quality-process-item > span {
+    min-width: 38px;
+
+    color: #1681c4;
+
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.quality-process-item h3 {
+    margin: 0 0 5px;
+
+    color: #102d49;
+
+    font-size: 17px;
+}
+
+.quality-process-item p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+
+/* =========================================================
+   PROCESS IMAGE
+========================================================= */
+
+.quality-process-image {
+    width: 100%;
+    height: 520px;
+
+    overflow: hidden;
+
+    border-radius: 5px;
+}
+
+.quality-process-image img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   QUALITY CTA
+========================================================= */
+
+.quality-cta {
+    padding: 80px 7%;
+
+    background: #102d49;
+}
+
+.quality-cta-container {
+    width: 100%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 40px;
+}
+
+.quality-cta .section-label {
+    color: #8bc8eb;
+}
+
+.quality-cta h2 {
+    margin: 0;
+
+    color: #ffffff;
+
+    font-size: 38px;
+    line-height: 1.25;
+
+    font-weight: 400;
+}
+
+.quality-cta h2 strong {
+    font-weight: 700;
+}
+
+.quality-cta-button {
+    min-width: 170px;
+    height: 54px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 25px;
+
+    background: #1681c4;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.quality-cta-button:hover {
+    background: #0d6da9;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .quality-hero {
+        padding: 90px 5%;
+    }
+
+    .quality-overview,
+    .quality-checks,
+    .quality-process {
+        padding: 90px 5%;
+    }
+
+    .quality-overview-container {
+        gap: 50px;
+    }
+
+    .quality-process-container {
+        gap: 50px;
+    }
+
+    .quality-checks-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* TWO INSTRUMENTS */
+
+    .instrument-slide {
+        flex: 0 0 calc((100% - 28px) / 2);
+    }
+
+    .instrument-prev {
+        left: -18px;
+    }
+
+    .instrument-next {
+        right: -18px;
+    }
+}
+
+
+/* =========================================================
+   TABLET / SMALL LAPTOP
+========================================================= */
+
+@media (max-width: 850px) {
+
+    .quality-overview-container,
+    .quality-process-container {
+        grid-template-columns: 1fr;
+    }
+
+    .quality-overview-image {
+        height: 420px;
+    }
+
+    .quality-process-image {
+        height: 420px;
+
+        order: -1;
+    }
+
+    .quality-cta-container {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .quality-hero {
+        min-height: 470px;
+
+        padding: 80px 20px;
+    }
+
+    .quality-hero h1 {
+        font-size: 42px;
+    }
+
+    .quality-hero p {
+        font-size: 15px;
+    }
+
+
+    .quality-overview,
+    .quality-checks,
+    .quality-process {
+        padding: 70px 20px;
+    }
+
+    .quality-instruments {
+        padding: 65px 0;
+    }
+
+    .quality-instruments-container {
+        width: 90%;
+    }
+
+
+    /* HEADINGS */
+
+    .quality-overview-content h2,
+    .quality-checks-heading h2,
+    .quality-instruments-heading h2,
+    .quality-process-content h2 {
+        font-size: 32px;
+    }
+
+
+    /* HIGHLIGHTS */
+
+    .quality-highlights {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* CHECKS */
+
+    .quality-checks-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* =====================================================
+       ONE INSTRUMENT CARD
+    ===================================================== */
+
+    .instrument-track {
+        gap: 0;
+
+        padding: 5px 0 12px;
+    }
+
+    .instrument-slide {
+        flex: 0 0 100%;
+    }
+
+    .instrument-image {
+        height: 280px;
+    }
+
+    .instrument-content {
+        padding: 24px;
+    }
+
+    .instrument-content h3 {
+        min-height: auto;
+
+        font-size: 21px;
+    }
+
+    .instrument-content p {
+        font-size: 14px;
+    }
+
+
+    /* MOBILE ARROWS */
+
+    .instrument-arrow {
+        width: 44px;
+        height: 44px;
+
+        font-size: 20px;
+    }
+
+    .instrument-prev {
+        left: -12px;
+    }
+
+    .instrument-next {
+        right: -12px;
+    }
+
+
+    /* PROCESS */
+
+    .quality-process-image {
+        height: 300px;
+    }
+
+
+    /* CTA */
+
+    .quality-cta {
+        padding: 65px 20px;
+    }
+
+    .quality-cta h2 {
+        font-size: 30px;
+    }
+
+    .quality-cta-button {
+        width: 100%;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 420px) {
+
+    .quality-hero h1 {
+        font-size: 36px;
+    }
+
+    .quality-overview-content h2,
+    .quality-checks-heading h2,
+    .quality-instruments-heading h2,
+    .quality-process-content h2 {
+        font-size: 29px;
+    }
+
+    .quality-check-card {
+        padding: 25px;
+    }
+
+    .instrument-image {
+        height: 220px;
+    }
+
+    .instrument-arrow {
+        width: 38px;
+        height: 38px;
+
+        font-size: 17px;
+    }
+
+    .instrument-prev {
+        left: -8px;
+    }
+
+    .instrument-next {
+        right: -8px;
+    }
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+========================================================= */
+
+.instrument-arrow:focus-visible,
+.instrument-dot:focus-visible {
+    outline: 3px solid rgba(22, 132, 199, 0.3);
+
+    outline-offset: 3px;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .instrument-track {
+        scroll-behavior: auto;
+    }
+
+    .quality-check-card,
+    .instrument-slide,
+    .instrument-image img,
+    .instrument-arrow,
+    .instrument-dot,
+    .quality-cta-button {
+        transition: none;
+    }
+}
+/* =========================================================
+   DESKTOP - SHOW ALL 4 INSTRUMENTS
+========================================================= */
+
+@media (min-width: 1101px) {
+
+    .instrument-slider {
+        position: relative;
+        width: 100%;
+        overflow: visible;
+    }
+
+    .instrument-track {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 28px;
+
+        width: 100%;
+        overflow: visible;
+
+        transform: none !important;
+        scroll-behavior: auto !important;
+    }
+
+    .instrument-slide {
+        width: 100%;
+        min-width: 0;
+
+        transform: none !important;
+        opacity: 1 !important;
+    }
+
+    /* Hide arrows on desktop */
+
+    .instrument-arrow {
+        display: none !important;
+    }
+
+    /* Hide dots on desktop */
+
+    .instrument-dots {
+        display: none !important;
+    }
+
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width: 651px) and (max-width: 1100px) {
+
+    .instrument-track {
+        display: flex;
+        gap: 24px;
+
+        overflow-x: auto;
+        scroll-behavior: smooth;
+
+        scrollbar-width: none;
+    }
+
+    .instrument-track::-webkit-scrollbar {
+        display: none;
+    }
+
+    .instrument-slide {
+        flex: 0 0 calc(50% - 12px);
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+    .instrument-track {
+        display: flex;
+        gap: 16px;
+
+        overflow-x: auto;
+        scroll-behavior: smooth;
+
+        scrollbar-width: none;
+    }
+
+    .instrument-track::-webkit-scrollbar {
+        display: none;
+    }
+
+    .instrument-slide {
+        flex: 0 0 100%;
+    }
+
+}

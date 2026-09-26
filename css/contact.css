@@ -1,0 +1,576 @@
+/* =====================================================
+   CONTACT HERO
+===================================================== */
+
+.contact-hero {
+    min-height: 500px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(10, 35, 55, 0.88),
+            rgba(10, 35, 55, 0.60),
+            rgba(10, 35, 55, 0.18)
+        ),
+        url("../assets/images/factory/manufacturing.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 90px 6%;
+}
+
+.contact-hero-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: #3aaa35;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.contact-hero h1 {
+    max-width: 700px;
+
+    margin: 0 0 22px;
+
+    color: #ffffff;
+
+    font-size: 52px;
+    line-height: 1.12;
+
+    font-weight: 400;
+}
+
+.contact-hero h1 strong {
+    font-weight: 700;
+}
+
+.contact-hero-content > p {
+    max-width: 620px;
+
+    margin: 0 0 30px;
+
+    color: #dce8f0;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.contact-breadcrumb {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+.contact-breadcrumb a {
+    color: #ffffff;
+
+    text-decoration: none;
+}
+
+.contact-breadcrumb span:first-of-type {
+    color: #3aaa35;
+
+    font-size: 18px;
+}
+
+
+/* =====================================================
+   CONTACT SECTION
+===================================================== */
+
+.contact-section {
+    padding: 100px 6%;
+
+    background: #f5f8fb;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: 0.85fr 1.15fr;
+
+    gap: 75px;
+
+    align-items: start;
+}
+
+
+/* =====================================================
+   CONTACT INFORMATION
+===================================================== */
+
+.contact-info {
+    padding-top: 10px;
+}
+
+.contact-info h2 {
+    margin: 0 0 20px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.contact-info h2 strong {
+    font-weight: 700;
+}
+
+.contact-intro {
+    margin: 0 0 40px;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* INFO ITEM */
+
+.contact-info-item {
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 17px;
+
+    margin-bottom: 25px;
+}
+
+.contact-info-icon {
+    width: 48px;
+    height: 48px;
+
+    min-width: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf4fb;
+
+    color: #0867ad;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+}
+
+.contact-info-item h3 {
+    margin: 2px 0 6px;
+
+    color: #102d49;
+
+    font-size: 16px;
+}
+
+.contact-info-item p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+.contact-info-item a {
+    color: #647891;
+
+    text-decoration: none;
+}
+
+.contact-info-item a:hover {
+    color: #0867ad;
+}
+
+
+/* WHATSAPP */
+
+.whatsapp-button {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 10px;
+
+    padding: 13px 22px;
+
+    background: #3aaa35;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background: #2f912b;
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   QUOTE FORM
+===================================================== */
+
+.quote-form-wrapper {
+    padding: 40px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e9ef;
+
+    border-radius: 7px;
+
+    box-shadow: 0 12px 35px rgba(16, 45, 73, 0.07);
+}
+
+.quote-form-heading {
+    margin-bottom: 30px;
+}
+
+.quote-form-heading h2 {
+    margin: 0 0 8px;
+
+    color: #102d49;
+
+    font-size: 28px;
+}
+
+.quote-form-heading p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 14px;
+}
+
+
+/* FORM */
+
+.quote-form {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 18px;
+}
+
+.form-row {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 18px;
+}
+
+.form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.form-group label {
+    color: #102d49;
+
+    font-size: 13px;
+
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 13px 14px;
+
+    background: #ffffff;
+
+    color: #102d49;
+
+    border: 1px solid #dce5ed;
+
+    border-radius: 4px;
+
+    outline: none;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    transition: 0.25s ease;
+
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+
+    min-height: 120px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0867ad;
+
+    box-shadow: 0 0 0 3px rgba(8, 103, 173, 0.08);
+}
+
+
+/* SUBMIT */
+
+.quote-submit {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    background: #0867ad;
+
+    color: #ffffff;
+
+    font-family: inherit;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.quote-submit:hover {
+    background: #3aaa35;
+}
+
+.form-note {
+    margin: 0;
+
+    color: #8a9bad;
+
+    text-align: center;
+
+    font-size: 11px;
+
+    line-height: 1.5;
+}
+
+.form-message {
+    display: none;
+
+    margin: 0;
+
+    padding: 10px;
+
+    border-radius: 4px;
+
+    text-align: center;
+
+    font-size: 13px;
+}
+
+
+/* =====================================================
+   LOCATION
+===================================================== */
+
+.location-section {
+    padding: 90px 6%;
+
+    background: #ffffff;
+}
+
+.location-container {
+    max-width: 1200px;
+
+    margin: auto;
+}
+
+.location-heading {
+    margin-bottom: 35px;
+}
+
+.location-heading h2 {
+    margin: 0;
+
+    color: #102d49;
+
+    font-size: 40px;
+
+    font-weight: 400;
+}
+
+.location-heading h2 strong {
+    font-weight: 700;
+}
+
+.map-wrapper {
+    width: 100%;
+
+    height: 420px;
+
+    overflow: hidden;
+
+    border-radius: 6px;
+
+    border: 1px solid #e2e9ef;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .contact-hero {
+        min-height: 450px;
+    }
+
+    .contact-hero-content {
+        padding: 75px 5%;
+    }
+
+    .contact-hero h1 {
+        font-size: 42px;
+    }
+
+    .contact-section {
+        padding: 75px 5%;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr;
+
+        gap: 50px;
+    }
+
+    .contact-info h2 {
+        font-size: 36px;
+    }
+
+    .location-section {
+        padding: 75px 5%;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .contact-hero {
+        min-height: 430px;
+
+        background-position: 60% center;
+    }
+
+    .contact-hero-content {
+        padding: 65px 20px;
+    }
+
+    .contact-hero-label {
+        font-size: 11px;
+    }
+
+    .contact-hero h1 {
+        font-size: 34px;
+    }
+
+    .contact-hero-content > p {
+        font-size: 14px;
+    }
+
+    .contact-section {
+        padding: 60px 20px;
+    }
+
+    .contact-info h2 {
+        font-size: 31px;
+    }
+
+    .contact-intro {
+        font-size: 14px;
+    }
+
+    .quote-form-wrapper {
+        padding: 25px 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .location-section {
+        padding: 60px 20px;
+    }
+
+    .location-heading h2 {
+        font-size: 31px;
+    }
+
+    .map-wrapper {
+        height: 320px;
+    }
+
+}

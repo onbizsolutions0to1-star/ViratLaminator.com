@@ -1,0 +1,615 @@
+/* =====================================================
+   ABOUT HERO
+===================================================== */
+
+.about-hero {
+    min-height: 500px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url("../assets/images/factory/about-factory.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: rgba(10, 35, 55, 0.72);
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1200px;
+
+    margin: auto;
+    padding: 90px 6%;
+}
+
+.about-hero-label {
+    display: inline-block;
+
+    margin-bottom: 18px;
+
+    color: #3aaa35;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.about-hero h1 {
+    max-width: 700px;
+
+    margin: 0 0 22px;
+
+    color: #ffffff;
+
+    font-size: 52px;
+    line-height: 1.12;
+    font-weight: 400;
+}
+
+.about-hero h1 strong {
+    font-weight: 700;
+}
+
+.about-hero-content > p {
+    max-width: 620px;
+
+    margin: 0 0 28px;
+
+    color: #dce8f0;
+
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* BREADCRUMB */
+
+.about-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    color: #ffffff;
+
+    font-size: 13px;
+}
+
+.about-breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about-breadcrumb span:first-of-type {
+    color: #3aaa35;
+}
+
+
+/* =====================================================
+   ABOUT INTRO
+===================================================== */
+
+.about-intro {
+    padding: 100px 6%;
+
+    background: #ffffff;
+}
+
+.about-intro-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 75px;
+
+    align-items: center;
+}
+
+
+/* IMAGE */
+
+.about-intro-image {
+    height: 500px;
+
+    overflow: hidden;
+
+    border-radius: 6px;
+}
+
+.about-intro-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* CONTENT */
+
+.section-label {
+    display: inline-block;
+
+    margin-bottom: 15px;
+
+    color: #3aaa35;
+
+    font-size: 13px;
+    font-weight: 700;
+
+    letter-spacing: 1.8px;
+}
+
+.about-intro-content h2 {
+    margin: 0 0 22px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.about-intro-content h2 strong {
+    font-weight: 700;
+}
+
+.about-intro-content p {
+    margin: 0 0 16px;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .about-hero {
+        min-height: 450px;
+    }
+
+    .about-hero-content {
+        padding: 75px 5%;
+    }
+
+    .about-hero h1 {
+        font-size: 42px;
+    }
+
+    .about-intro {
+        padding: 75px 5%;
+    }
+
+    .about-intro-container {
+        grid-template-columns: 1fr;
+
+        gap: 45px;
+    }
+
+    .about-intro-image {
+        height: 420px;
+    }
+
+    .about-intro-content h2 {
+        font-size: 36px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .about-hero {
+        min-height: 430px;
+    }
+
+    .about-hero-content {
+        padding: 65px 20px;
+    }
+
+    .about-hero h1 {
+        font-size: 34px;
+    }
+
+    .about-hero-content > p {
+        font-size: 14px;
+    }
+
+    .about-intro {
+        padding: 60px 20px;
+    }
+
+    .about-intro-image {
+        height: 300px;
+    }
+
+    .about-intro-content h2 {
+        font-size: 31px;
+    }
+
+    .about-intro-content p {
+        font-size: 14px;
+    }
+}
+/* =====================================================
+   WHAT WE DO
+===================================================== */
+
+.what-we-do {
+    padding: 100px 6%;
+    background: #f5f8fb;
+}
+
+.what-we-do-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* HEADING */
+
+.what-we-do-heading {
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+
+.what-we-do-heading h2 {
+    margin: 0 0 20px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.what-we-do-heading h2 strong {
+    font-weight: 700;
+}
+
+.what-we-do-heading p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* SERVICE GRID */
+
+.what-we-do-grid {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+/* SERVICE CARD */
+
+.service-card {
+    position: relative;
+
+    padding: 35px 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e9ef;
+
+    border-radius: 6px;
+
+    transition: 0.3s ease;
+
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #0867ad;
+
+    box-shadow: 0 15px 35px rgba(16, 45, 73, 0.10);
+}
+
+
+/* NUMBER */
+
+.service-number {
+    position: absolute;
+
+    top: 20px;
+    right: 22px;
+
+    color: #dce7ef;
+
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+/* ICON */
+
+.service-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 25px;
+
+    background: #eaf4fb;
+
+    color: #0867ad;
+
+    border-radius: 6px;
+
+    font-size: 25px;
+}
+
+
+/* TITLE */
+
+.service-card h3 {
+    margin: 0 0 12px;
+
+    color: #102d49;
+
+    font-size: 21px;
+}
+
+
+/* TEXT */
+
+.service-card p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   WHY CHOOSE US
+===================================================== */
+
+.why-choose-us {
+    padding: 100px 6%;
+
+    background: #ffffff;
+}
+
+.why-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* HEADING */
+
+.why-heading {
+    max-width: 700px;
+
+    margin-bottom: 50px;
+}
+
+.why-heading h2 {
+    margin: 0 0 20px;
+
+    color: #102d49;
+
+    font-size: 42px;
+    line-height: 1.2;
+
+    font-weight: 400;
+}
+
+.why-heading h2 strong {
+    font-weight: 700;
+}
+
+.why-heading p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+
+/* WHY GRID */
+
+.why-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+/* WHY CARD */
+
+.why-card {
+    display: flex;
+
+    gap: 20px;
+
+    padding: 30px;
+
+    background: #f5f8fb;
+
+    border: 1px solid #e2e9ef;
+
+    border-radius: 6px;
+
+    transition: 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-4px);
+
+    background: #ffffff;
+
+    box-shadow: 0 12px 30px rgba(16, 45, 73, 0.08);
+}
+
+
+/* ICON */
+
+.why-icon {
+    width: 50px;
+    height: 50px;
+
+    min-width: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eaf7e8;
+
+    color: #3aaa35;
+
+    border-radius: 50%;
+
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+/* TITLE */
+
+.why-card h3 {
+    margin: 2px 0 8px;
+
+    color: #102d49;
+
+    font-size: 18px;
+}
+
+
+/* TEXT */
+
+.why-card p {
+    margin: 0;
+
+    color: #647891;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .what-we-do {
+        padding: 75px 5%;
+    }
+
+    .what-we-do-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card {
+        padding: 30px;
+    }
+
+    .why-choose-us {
+        padding: 75px 5%;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .what-we-do-heading h2,
+    .why-heading h2 {
+        font-size: 36px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 600px) {
+
+    .what-we-do {
+        padding: 60px 20px;
+    }
+
+    .why-choose-us {
+        padding: 60px 20px;
+    }
+
+    .what-we-do-heading h2,
+    .why-heading h2 {
+        font-size: 31px;
+    }
+
+    .what-we-do-heading p,
+    .why-heading p {
+        font-size: 14px;
+    }
+
+    .service-card {
+        padding: 28px 24px;
+    }
+
+    .service-card h3 {
+        font-size: 19px;
+    }
+
+    .why-card {
+        padding: 25px 20px;
+
+        gap: 15px;
+    }
+
+    .why-icon {
+        width: 45px;
+        height: 45px;
+        min-width: 45px;
+    }
+
+}
